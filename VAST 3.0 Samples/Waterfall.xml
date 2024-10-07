@@ -1,0 +1,73 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+    <Ad id="1">
+        <Wrapper>
+            <AdSystem>AD_SYSTEM</AdSystem>
+            <VASTAdTagURI><![CDATA[https://tv.springserve.com/vast/774636?w=1920&h=1080&app_bundle=com.hoteltv&app_name=Daewoo%20Hotel&skip=1&did={{DEVICE_ID}}&schain=1.0,1!nkmc.com.vn,10027,1]]></VASTAdTagURI>
+            
+            <!-- Impression Tracking -->
+            <Impression><![CDATA[https://tracking.example.com/impression1]]></Impression>
+
+            <!-- Error Tracking -->
+            <Error><![CDATA[https://www.error_tracker.com?ad_id=1]]></Error>
+
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <!-- Start Tracking -->
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://tracking.example.com/start1]]>
+                            </Tracking>
+                        </TrackingEvents>
+
+                        <!-- Click Tracking -->
+                        <VideoClicks>
+                            <ClickTracking><![CDATA[https://tracking.example.com/click1]]></ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            
+            <!-- Waterfall Extension -->
+            <Extensions>
+                <Extension type="waterfall" fallback_index="0"/>
+            </Extensions>
+        </Wrapper>
+    </Ad>
+    
+    <Ad id="2">
+        <Wrapper>
+            <AdSystem>AD_SYSTEM</AdSystem>
+            <VASTAdTagURI><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=]]></VASTAdTagURI>
+            
+            <!-- Impression Tracking -->
+            <Impression><![CDATA[https://tracking.example.com/impression2]]></Impression>
+
+            <!-- Error Tracking -->
+            <Error><![CDATA[https://www.error_tracker.com?ad_id=2]]></Error>
+
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <!-- Start Tracking -->
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://tracking.example.com/start2]]>
+                            </Tracking>
+                        </TrackingEvents>
+
+                        <!-- Click Tracking -->
+                        <VideoClicks>
+                            <ClickTracking><![CDATA[https://tracking.example.com/click2]]></ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+            
+            <!-- Waterfall Extension -->
+            <Extensions>
+                <Extension type="waterfall" fallback_index="1"/>
+            </Extensions>
+        </Wrapper>
+    </Ad>
+</VAST>
