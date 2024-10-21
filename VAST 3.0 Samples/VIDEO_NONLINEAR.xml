@@ -10,8 +10,8 @@
                 <Creative id="5481" sequence="1">
                     <NonLinearAds>
                         <NonLinear width="500" height="100" minSuggestedDuration="00:00:05">
-                            <StaticResource creativeType="video/mp4">
-                                <![CDATA[https://1268420584.pop.vnptcdn.com/staging_uploads/indigo/files/be5d20f6eb09492ca513f06c5e8e3cca.mp4]]>
+                            <StaticResource creativeType="image/png">
+                                <![CDATA[https://dunhamweb.com/wp-content/uploads/banner-sample.png]]>
                             </StaticResource>
                             <NonLinearClickThrough>
                                 <![CDATA[https://example.com]]>
